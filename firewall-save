@@ -1,1 +1,1 @@
-iptables-save > /etc/iptables/iptables.rules
+/etc/init.d/netfilter-persistent save
