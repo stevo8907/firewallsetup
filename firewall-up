@@ -65,3 +65,5 @@ echo 1 > /proc/sys/net/ipv4/conf/all/log_martians
 
 # print the activated rules to the console when script is completed
 /sbin/iptables -nL
+
+systemctl restart docker
